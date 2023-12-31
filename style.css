@@ -13,7 +13,7 @@ body {
 }
 
 .container-left {
-  background-color: #4433f1;
+  background: linear-gradient(to bottom, #4f3dec, rgb(60, 44, 237));
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -137,7 +137,7 @@ body {
 .score {
   display: flex;
   font-weight: 600;
-  color: black;
+  color: #313131
 }
 
 .fullscore {
@@ -160,4 +160,28 @@ body {
 
 .btnCon:hover {
   background-color: #303b59;
+}
+
+.reaction p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.memmory p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.verbal p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.visual p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
